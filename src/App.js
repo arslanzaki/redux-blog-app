@@ -1,8 +1,12 @@
+import AddPostForm from "./components/AddPostForm";
+import PostsList from "./components/PostsList";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl text-center">Heloo</h1>
+    <div>
+      <AddPostForm />
+      <hr />
+      <PostsList />
     </div>
   );
 }
